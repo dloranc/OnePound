@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                             JSONObject firstRate = rates.getJSONObject(0);
                             String rate = firstRate.getString("mid");
 
-                            String message = "1 funt to "+ rate + " złotych";
+                            String message = "1 funt po "+ rate + " zł";
                             currentRateTextView.setText(message);
 
                             try {
